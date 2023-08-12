@@ -1,5 +1,5 @@
 function solutions(S){
-    const charPositions = [];
+    const charPositions = {};
 
     for (let i = 0;i < S.length; i++) {
         const str = S[i];
